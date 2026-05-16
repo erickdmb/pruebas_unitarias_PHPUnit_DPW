@@ -1,0 +1,12 @@
+# Dependencias de PHP (Nunca subir la carpeta vendor)
+/vendor/
+# Archivos de configuración local
+.env
+
+# Archivos temporales de PHPUnit
+.phpunit.result.cache
+.phpunit.cache/
+
+# Reportes de Cobertura (HTML)
+/build/
+/coverage/

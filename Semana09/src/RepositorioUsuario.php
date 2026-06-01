@@ -3,13 +3,14 @@
 namespace App;
 
 class RepositorioUsuario
+
 {
-    public function guardar(string $email): bool
+    public function guardar($email)
     {
         return true;
     }
     
-    public function existe(string $email): bool
+    public function existe($email)
     {
         return false;
     }

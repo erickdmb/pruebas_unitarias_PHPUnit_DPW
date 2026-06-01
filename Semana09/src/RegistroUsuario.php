@@ -4,14 +4,14 @@ namespace App;
 
 class RegistroUsuario
 {
-    private RepositorioUsuario $repositorio;
+    private $repositorio;
     
-    public function __construct(RepositorioUsuario $repositorio)
+    public function __construct($repositorio)
     {
         $this->repositorio = $repositorio;
     }
     
-    public function registrar(string $email): bool
+    public function registrar($email)
     {
         if ($this->repositorio->existe($email)) {
             return false;

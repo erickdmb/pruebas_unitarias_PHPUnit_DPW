@@ -223,3 +223,50 @@ paso 10: ver los resultados en formato legible
 ```bash
 php vendor/bin/phpunit tests --testdox
 ```
+
+paso 11: agregar ejercicios adicionales de: Calcular factorial y validar contraseña
+
+**calcular factorial**
+
+Agrega a Calculadora el método factorial($n) que:
+
+* Si $n es negativo, lanza InvalidArgumentException
+
+* Si $n == 0, retorna 1
+
+* Si $n > 0, retorna el factorial
+
+```php
+public function factorial($n)
+{
+    // implementación
+}
+```
+Escribe 3 pruebas para el método factorial de:
+* testFactorialNormal
+* testFactorialCero
+* testFactorialNegativo
+
+**validar contraseña**
+
+Agrega a Validador el método validarPassword($password) que:
+
+* Si $password tiene menos de 8 caracteres, lanza Exception con mensaje "Contraseña demasiado corta"
+
+* Si $password no tiene un número, lanza Exception con mensaje "Debe contener al menos un número"
+
+* Si cumple todo, retorna true
+
+```php
+public function validarPassword($password)
+{
+    // implementación
+}
+```
+
+Escribe 4 pruebas para el método factorial de:
+
+* testValidarEmailInvalido
+* testValidarPasswordNormal
+* testValidarPasswordCorta
+* testValidarPasswordSinNumero

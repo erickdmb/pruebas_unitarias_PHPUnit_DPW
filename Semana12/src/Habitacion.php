@@ -31,4 +31,14 @@ class Habitacion
     {
         return $this->numero;
     }
+    
+    public function getTipo(): string
+    {
+        return $this->tipo;
+    }
+    
+    public function getPrecio(): float
+    {
+        return $this->precio;
+    }
 }

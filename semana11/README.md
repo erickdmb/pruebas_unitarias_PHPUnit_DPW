@@ -41,17 +41,7 @@ Ejecutar un test específico:
 vendor\bin\phpunit --filter NombreDelTest
 ```
 
-4. **Generar reporte de cobertura (Coverage):**
-
-  *(Requiere Xdebug instalado)*
-
-
-```bash
-./vendor/bin/phpunit --coverage-html build/coverage
-vendor\bin\phpunit --coverage-html build/coverage
-```
-
-5. **Estructura de Carpetas**
+4. **Estructura de Carpetas**
 
 src/: Aquí va la lógica de negocio (tus clases PHP).
 tests/: Aquí van tus archivos de prueba (Test Cases).

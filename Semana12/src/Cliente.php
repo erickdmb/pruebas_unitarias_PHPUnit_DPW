@@ -24,4 +24,9 @@ class Cliente
     {
         return $this->email;
     }
+    
+    public function getTelefono(): string
+    {
+        return $this->telefono;
+    }
 }

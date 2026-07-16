@@ -32,9 +32,17 @@ class Cliente
     {
         return $this->email;
     }
+<<<<<<< HEAD:Semana12/src/cliente.php
 
+=======
+    
+>>>>>>> fd59522006afd8a07ebcf6ebf04d0bd5191af27d:Semana12/src/Cliente.php
     public function getTelefono(): string
     {
         return $this->telefono;
     }
+<<<<<<< HEAD:Semana12/src/cliente.php
 }
+=======
+}
+>>>>>>> fd59522006afd8a07ebcf6ebf04d0bd5191af27d:Semana12/src/Cliente.php

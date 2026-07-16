@@ -43,14 +43,26 @@ class Habitacion
     {
         return $this->numero;
     }
+<<<<<<< HEAD:Semana12/src/habitacion.php
 
+=======
+    
+>>>>>>> fd59522006afd8a07ebcf6ebf04d0bd5191af27d:Semana12/src/Habitacion.php
     public function getTipo(): string
     {
         return $this->tipo;
     }
+<<<<<<< HEAD:Semana12/src/habitacion.php
 
+=======
+    
+>>>>>>> fd59522006afd8a07ebcf6ebf04d0bd5191af27d:Semana12/src/Habitacion.php
     public function getPrecio(): float
     {
         return $this->precio;
     }
+<<<<<<< HEAD:Semana12/src/habitacion.php
 }
+=======
+}
+>>>>>>> fd59522006afd8a07ebcf6ebf04d0bd5191af27d:Semana12/src/Habitacion.php
